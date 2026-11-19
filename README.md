@@ -11,7 +11,7 @@
 - [References](#references)
   
 ## Overview
-This academic project builds upon the article by  [R. Bischof et al. (2020), *Estimating and forecasting spatial population dynamics of apex predators using transnational genetic monitoring*](https://doi.org/10.1073/pnas.201138311). The project had two main goals:
+This **academic project** builds upon the article by  [R. Bischof et al. (2020), *Estimating and forecasting spatial population dynamics of apex predators using transnational genetic monitoring*](https://doi.org/10.1073/pnas.201138311). The project had two main goals:
 - **popularisation** of the mathematics involved in the paper,  
 - **test the limits** of the model using simulations that break different key hypotheses.
 
@@ -46,7 +46,7 @@ We then fitted the model to these simulated datasets and used relative bias and 
 This is a completed academic project. However, feedback on the methodology or analysis is welcome.
 
 ## References
-The project builds upon the following scientific literature, technical documentation and academic courses:
+The project builds upon the following scientific literature:
 
 1. **Bischof, R. et al. (2020).** *Estimating and forecasting spatial population dynamics of apex predators using transnational genetic monitoring.* Proceedings of the National Academy of Sciences.
    [https://doi.org/10.1073/pnas.2011383117](https://doi.org/10.1073/pnas.2011383117)
