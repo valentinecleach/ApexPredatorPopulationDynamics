@@ -1,50 +1,25 @@
-# PFE Biostats
+# Estimating and forecasting spatial population dynamics of apex predators using transnational genetic monitoring
 
 <hr style="border: 1px solid #000;">
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#le-projet">Le projet</a>
-    </li>
-    <li>
-      <a href="#comment-utiliser">Comment utiliser?</a>
-    </li>
-    <li><a href="#contact">Contact</a></li>
-    </ol>
-</details>
+## Overview
+This project was implemented in two parts:
+- vulgarisation of
+- 
 
+## Key Contributions and Techniques
 
----
+## Datasets 
 
+## Technology Stack & Requirements
+* **Language**: R 4.5.0
+* **Core Libraries:** 
 
-<!-- Le projet -->
-## Le projet
+## Implementation 
+### Implementation 
 
-
-
-<p align="right">(<a href="#readme-top">remonter</a>)</p>
-
-
----
-
-<!-- Comment utiliser -->
-## Comment utiliser?
-
-Ce projet a été codé avec R 4.5.0
-
-
-<p align="right">(<a href="#readme-top">remonter</a>)</p>
-
----
-
-<!-- CONTACT -->
-## Contact
-Fanny MOREAU - 
-Valentine CLEACH - valentine.cleach@gmail.com
-
-Lien du projet: 
-
-<p align="right">(<a href="#readme-top">remonter</a>)</p>
+## Collaborators
+* Valentine CLEACH - valentine.cleach@gmail.com
+* Fanny MOREAU - fanny.moreau32@gmail.com
+* Supervisor: Marie-Pierre ETIENNE
+This is a completed academic project; however, feedback on the methodology or analysis is welcome.
