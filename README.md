@@ -1,6 +1,15 @@
 # Estimating and forecasting spatial population dynamics of apex predators using transnational genetic monitoring
 
+## Table of Contents
 
+- [Overview](#overview)
+- [Key Techniques Implemented](#key-contributions-and-techniques)
+  - [The OPSCR Model](#the-opscr-model)
+  - [Contributions](#key-contributions)
+- [Technology Stack & Requirements](#technology-stack--requirements)
+- [Collaborators](#collaborators)
+- [References](#references)
+  
 ## Overview
 This academic project builds upon the article by  [R. Bischof et al. (2020), *Estimating and forecasting spatial population dynamics of apex predators using transnational genetic monitoring*](https://doi.org/10.1073/pnas.201138311). The project had two main goals:
 - **popularisation** of the mathematics involved in the paper,  
@@ -10,7 +19,7 @@ This code of the main model stems from the [git repository](https://github.com/r
 
 The model presented in the article follows populations of 3 species of apex predators (wolverines, wolves and bears) across space (Norway and Sweden) and time (from 2012 to 2019). It uses datasets of detection/non-detection at a time and location by collecting samples of DNA and indentifying individuals from one another. 
 
-## Key Contributions and Techniques
+## Key Techniques Implemented
 
 ### The OPSCR Model
 The model used was an Open Population Spatial Capture Recapture (OPSCR) model. The model uses:
@@ -20,7 +29,7 @@ The model used was an Open Population Spatial Capture Recapture (OPSCR) model. T
 * A half-normal detection model to represent difficulties in detecting certain individuals or certain locations
 * Bayesian inference to estimate the model (nimble)
 
-### Key Contributions
+### Contributions
 We investigated the assumption that individual activity centres follow a homogeneous Poisson point process. We implemented simulations following two different processes where this is not the case:
 * **A Strauss Process**: Models spatial inhibition, meaning individuals tend to avoid being located close to one another. This could represent solitary predators like wolverine populations.
 * **A Neyman-Scott Process**: Models spatial clustering, meaning individuals tend to occur in groups or clusters. This could reprensent populations that live in packs.
