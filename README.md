@@ -1,13 +1,9 @@
 # Estimating and forecasting spatial population dynamics of apex predators using transnational genetic monitoring
 
----
 
 ## Overview
-This academic project builds upon the article by  [R. Bischof et al. (2020), *Estimating and
-forecasting spatial population dynamics of apex predators using transnational genetic mon-
-itoring*](
-https://doi.org/10.1073/pnas.201138311). The project had two main goals:
-- **popularisation** of the mathematics involved in the paper  
+This academic project builds upon the article by  [R. Bischof et al. (2020), *Estimating and forecasting spatial population dynamics of apex predators using transnational genetic monitoring*](https://doi.org/10.1073/pnas.201138311). The project had two main goals:
+- **popularisation** of the mathematics involved in the paper,  
 - **test the limits** of the model using simulations that break different key hypotheses.
 
 This code of the main model stems from the [git repository](https://github.com/richbi/WildThings) mentioned in the original article.
@@ -26,23 +22,18 @@ The model used was an Open Population Spatial Capture Recapture (OPSCR) model. T
 
 ### Key Contributions
 We investigated the assumption that individual activity centres follow a homogeneous Poisson point process. We implemented simulations following two different processes where this is not the case:
-* A Strauss Process: Models spatial inhibition, meaning individuals tend to avoid being located close to one another. This could represent solitary predators like wolverine populations.
-* Neyman-Scott: Models spatial clustering, meaning individuals tend to occur in groups or clusters. This could reprensent populations that live in packs.
+* **A Strauss Process**: Models spatial inhibition, meaning individuals tend to avoid being located close to one another. This could represent solitary predators like wolverine populations.
+* **A Neyman-Scott Process**: Models spatial clustering, meaning individuals tend to occur in groups or clusters. This could reprensent populations that live in packs.
 We then fitted the model to these simulated datasets and used relative bias and the coefficient of variation to assess the impact of these alternative spatial processes.
 
 ## Technology Stack & Requirements
 * **Language**: R 4.5.0
-* **Core Libraries:**
-- [dplyr](https://dplyr.tidyverse.org/)
-- [ggplot2](https://ggplot2.tidyverse.org/)
-- [nimble](https://r-nimble.org/)
-- [nimbleSCR](https://github.com/nimble-dev/nimbleSCR)
-- [sf](https://r-spatial.github.io/sf/)
-- [spatstat](https://spatstat.org/)
+* **Core Libraries:** [dplyr](https://dplyr.tidyverse.org/), [ggplot2](https://ggplot2.tidyverse.org/), [nimble](https://r-nimble.org/), [nimbleSCR](https://github.com/nimble-dev/nimbleSCR), [sf](https://r-spatial.github.io/sf/), [spatstat](https://spatstat.org/)
 
 ## Collaborators
 * Valentine CLEACH - valentine.cleach@gmail.com
 * Fanny MOREAU - fanny.moreau32@gmail.com
+  
 This is a completed academic project. However, feedback on the methodology or analysis is welcome.
 
 ## References
